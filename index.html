@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Business Package For Sale</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #121212;
+      color: #f5f5f5;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Header Styles */
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f1f1f;
+    }
+
+    .header h1 {
+      color: #ffcc00;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      animation: fadeIn 2s ease-out;
+    }
+
+    /* Container and Card Styles */
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      color: #ffcc00;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 2s ease-out;
+    }
+
+    .slide-in {
+      animation: slideIn 1.5s ease-out;
+    }
+
+    .zoom-in {
+      animation: zoomIn 1.5s ease-out;
+    }
+
+    .slide-up {
+      animation: slideUp 1.5s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>✨ For Sale: Complete Digital Business Package ✨</h1>
+  </header>
+
+  <section class="container">
+    <div class="card fade-in">
+      <h2>🔥 What’s Included:</h2>
+      <ul>
+        <li>✅ 3x US PayPal Accounts (Fully Verified + Aged + With Transactions)</li>
+        <li>💼 Sellpass.io Lifetime Plan (Perfect for selling digital goods!)</li>
+        <li>🚀 10k Discord Members (336 paying customers)</li>
+        <li>🔄 Restorecord.io Subscription (Restore Discord accounts easily)</li>
+        <li>Consistently generating 20-50 verifications daily, even when inactive!</li>
+        <li>19k pullable members ready to engage.</li>
+        <li>🌐 Lmnix.com Website (Only need to pay for the domain yearly)</li>
+        <li>🤖 Discord Bot Source Code (Preview moderator and ad bot at bot.hydrolmn.com)</li>
+      </ul>
+    </div>
+
+    <div class="card slide-in">
+      <h2>💰 Previous Performance:</h2>
+      <p>Generated $500-$1000 monthly with minimal effort (just 10 minutes of work a day)! Business paused in July due to army service but still brings in $100-$200 monthly despite inactivity. The fact it’s still making money shows its strong reputation!</p>
+    </div>
+
+    <div class="card zoom-in">
+      <h2>🎯 Why This is a Golden Opportunity:</h2>
+      <ul>
+        <li>No need for large ads; just reopen the business with a small push.</li>
+        <li>Powered by invite rewards, loyal customers, and a well-established name in the community.</li>
+        <li>Expandability: You can easily add new products such as bots, VPNs, music, gaming services, and more. Currently, the focus is on League of Legends, but with a little effort, you could multiply your profits.</li>
+      </ul>
+    </div>
+
+    <div class="card slide-up">
+      <h2>Potential Revenue Streams:</h2>
+      <ul>
+        <li>Offer ad services in your Discord server—people are willing to pay to promote their shops.</li>
+        <li>Launch Discord member services—many are looking to buy members (members.hydrolmn.com).</li>
+        <li>Provide moderator bot services—there’s already a demand for this, and some were paying for it before.</li>
+        <li>Offer ad bot services—these are built-in and ready for resale to boost your income.</li>
+      </ul>
+    </div>
+
+    <div class="card fade-in">
+      <h2>💡 Why am I Selling?</h2>
+      <p>I’m serving full-time in the army, and unfortunately, I don’t have the time to manage this business anymore. Even now, as I write this, it’s sad for me to let go of such a profitable venture, but I urgently need funds. Despite being in the army, this shop still brings in revenue with almost no investment in time.</p>
+    </div>
+
+    <div class="card slide-in">
+      <p>This business is set for years of success with massive potential for growth. It’s perfect for anyone who wants to take over and scale it with minimal effort. Don’t miss out on this rare opportunity! 🚀💸</p>
+    </div>
+  </section>
+
+  <script>
+    // Optional scroll-triggered animations
+    document.addEventListener("DOMContentLoaded", () => {
+      const cards = document.querySelectorAll(".card");
+
+      // Add scroll event for animations
+      window.addEventListener("scroll", () => {
+        cards.forEach(card => {
+          const cardTop = card.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+
+          if (cardTop < windowHeight - 100) {
+            card.classList.add('active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
